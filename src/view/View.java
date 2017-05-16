@@ -85,13 +85,7 @@ public class View
         inspectionContr.updateInspectionResults(inputRegNo, updatedInspectionResults);
         inspectionContr.printInspectionResults(inputRegNo);
     }
-    
-        private void sampleExecutionUpdateAndPrintInspectionResults1()
-    {
-        boolean[] updatedInspectionResults = {true, true, true, true};
-        inspectionContr.updateInspectionResults("DEF456", updatedInspectionResults);
-        inspectionContr.printInspectionResults("DEF456");
-    }
+
     private void sampleExecutionCreditCardPayment()
     {
         CreditCardDTO creditCardDTO = new CreditCardDTO(123456789, "01-01", 123);
