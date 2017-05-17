@@ -71,7 +71,7 @@ public class InspectionController
      */
     public void updateInspectionResults(String regNo, boolean[] updatedInspectionResults)
     {
-        inspection.addInspectionObservers(inspectionObservers);
+        this.inspection.addInspectionObservers(inspectionObservers);
         this.inspection.updateInspectionResults(regNo, listOfInspectionDTOs, updatedInspectionResults);
     }
     

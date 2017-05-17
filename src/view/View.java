@@ -81,7 +81,7 @@ public class View
      
     private void sampleExecutionUpdateAndPrintInspectionResults()
     {
-        boolean[] updatedInspectionResults = {true, true, true, true};
+        boolean[] updatedInspectionResults = {true, false, true, true};
         inspectionContr.updateInspectionResults(inputRegNo, updatedInspectionResults);
         inspectionContr.printInspectionResults(inputRegNo);
     }
